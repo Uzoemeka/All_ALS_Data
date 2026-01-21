@@ -1,3 +1,6 @@
+from rpy2.robjects import r
+import pandas as pd
+
 def prognostic_score(df, fp_model, groups):
     # prognostic score (linear predictor) with standard error
     r_predict = r['predict']

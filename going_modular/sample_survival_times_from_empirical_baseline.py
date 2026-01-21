@@ -1,3 +1,6 @@
+import numpy as np
+
+
 def sample_survival_times_from_empirical_baseline(U, H0_df, linear_pred):
     """
     Inverse transform sampling using an empirical baseline cumulative hazard.

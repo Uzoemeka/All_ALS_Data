@@ -1,3 +1,7 @@
+import rpy2.robjects as ro
+import pandas as pd
+import numpy as np
+
 def extract_coefficients_from_fp_model_log_haz_scale(fp_model):
     # Get coefficients directly
     summary = ro.r.summary(fp_model)

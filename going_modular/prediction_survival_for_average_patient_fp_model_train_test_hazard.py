@@ -1,3 +1,13 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+from rpy2.robjects import r
+from rpy2.robjects.conversion import localconverter
+from rpy2.robjects import default_converter
+from rpy2.robjects import pandas2ri, conversion
+import rpy2.robjects as ro
+
 def prediction_survival_for_average_patient_fp_model_train_test(df, fp_model, newdata_train, newdata_test, time_col):
     # Predict survival probabilities using the fitted model
     r_predict = ro.r['predict']

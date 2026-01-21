@@ -1,3 +1,9 @@
+import numpy as np
+import pandas as pd
+from scipy.stats import norm
+from .gaussian_copula_samples import gaussian_copula_samples
+from .sample_survival_times_from_empirical_baseline import sample_survival_times_from_empirical_baseline
+
 def simulate_cox_dataset_with_correlation(n,baseline='weibull', H0_df=None,lam=0.1,rho=1.0,censor_rate=0.3,seed=None,var_specs=None,corr=None):
     """
     Simulate a Cox proportional hazards dataset WITH correlation among covariates

@@ -1,3 +1,12 @@
+import numpy as np
+
+
+from rpy2.robjects import default_converter
+from rpy2.robjects import pandas2ri, conversion
+from rpy2.robjects.conversion import localconverter
+from rpy2.robjects.vectors import FloatVector, IntVector
+from rpy2.robjects import DataFrame 
+
 def make_newdata_category_for_fp_model_prediction(df, means, modes, time_col, cat_col):
     times = np.linspace(0, df[time_col].max(), 100)
 

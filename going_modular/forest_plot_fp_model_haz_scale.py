@@ -1,3 +1,7 @@
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
 def forest_plot_fp_model_haz_scale(df_coef):
     # Create figure with subplots for labels and plot
     fig, (ax1, ax2, ax3) = plt.subplots(1, 3, figsize=(8, 5), 
@@ -26,7 +30,7 @@ def forest_plot_fp_model_haz_scale(df_coef):
                 zorder=3, edgecolors='black', linewidth=1)
 
     # Reference line
-    ax2.axvline(x=1, color='black', linestyle='--', linewidth=1.5, alpha=0.7)
+    ax2.axvline(x=0, color='black', linestyle='--', linewidth=1.5, alpha=0.7)
 
     ax2.set_xlabel('Hazard Ratio', fontsize=10, fontweight='bold')
     ax2.set_yticks([])

@@ -1,3 +1,7 @@
+import numpy as np
+from scipy.stats import norm
+
+
 def gaussian_copula_samples(n, corr):
     """
     Draw correlated U(0,1) samples using a Gaussian copula.

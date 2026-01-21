@@ -1,3 +1,5 @@
+import pandas as pd
+from lifelines import NelsonAalenFitter
 
 def estimate_baseline_cumhaz(original_df, time_col='time', event_col='event'):
     """
@@ -10,6 +12,6 @@ def estimate_baseline_cumhaz(original_df, time_col='time', event_col='event'):
     H0.columns = ['time', 'cumhaz']
     return H0
 
-H0_df = estimate_baseline_cumhaz(train_df, time_col='Disease_Duration', event_col='Event')
+# H0_df = estimate_baseline_cumhaz(train_df, time_col='Disease_Duration', event_col='Event')
 # H0_df
 
