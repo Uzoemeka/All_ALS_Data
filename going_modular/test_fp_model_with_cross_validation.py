@@ -27,7 +27,7 @@ graphics = importr("graphics")
 stats = importr("stats")
 lmtest = importr("lmtest")
 
-def fp_model_cv_aic_for_model(df_python, vars_list, spline_df, n_splits=5):
+def test_fp_model_with_cross_validation(df_python, vars_list, spline_df, n_splits=5):
     kf = KFold(n_splits=n_splits, shuffle=True, random_state=42)
     aics = []
 

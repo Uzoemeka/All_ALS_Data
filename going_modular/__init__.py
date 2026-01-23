@@ -2,7 +2,7 @@ from .check_value_counts import *
 from .estimate_baseline_cumhaz import *
 from .extract_coefficients_from_fp_model_haz_scale import *
 from .extract_coefficients_from_fp_model_log_haz_scale import *
-from .fp_model_cv_aic_for_model import *
+from .test_fp_model_with_cross_validation import *
 from .forest_plot_fp_model_haz_scale import *
 from .gaussian_copula_samples import *
 from .log_transform_columns import *
@@ -10,7 +10,7 @@ from .make_columns_object import *
 from .make_columns_int import *
 from .make_newdata_category_for_fp_model_prediction import *
 from .make_newdata_for_fp_model_prediction import *
-from .perform_fp_model_cv_aic_for_model import *
+from .find_best_fp_model_by_backward_elimination import *
 from .plot_histograms_with_kde import *
 from .prediction_hazard_for_average_patient_cat_cov_fp_model_train_test import *
 from .prediction_hazard_for_average_patient_fp_model_train_test import *
