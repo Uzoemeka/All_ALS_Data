@@ -1,0 +1,5 @@
+Variable,Beta,95% CI
+Study_Arm_Placebo,0.331,"[0.127, 0.519]"
+Age,0.503,"[0.402, 0.588]"
+Vital_capacity,-0.428,"[-0.495, -0.356]"
+Onset_Limb,0.889,"[0.363, 1.536]"

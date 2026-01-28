@@ -1,0 +1,7 @@
+Variable,Beta,95% CI
+Study_Arm_Placebo,0.199,"[0.031, 0.367]"
+Age,-4.97,"[-5.609, -4.183]"
+Diagnostic_Delay,-2.972,"[-3.448, -2.462]"
+TRICALS,11.604,"[9.751, 13.480]"
+Vital_capacity,2.872,"[2.431, 3.378]"
+Onset_Limb,5.148,"[4.285, 6.088]"

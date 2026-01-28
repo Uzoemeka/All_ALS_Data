@@ -1,0 +1,12 @@
+Metric,Value
+Selected variables,"Age, Diagnostic_Delay, TRICALS, Vital_capacity, Onset_Limb, Sex_Male, Sex_onset"
+Spline df,1
+AIC (apparent),1150.134
+C-index (apparent),0.332
+C-index (optimism-corrected),0.332
+C-index 95% CI,"[0.312, 0.371]"
+Calibration slope (apparent),-0.394
+Calibration slope (optimism-corrected),-0.385
+Slope 95% CI,"[-0.437, -0.314]"
+CITL at 12 months (optimism-corrected),-2.401
+CITL 95% CI,"[-2.516, -2.245]"

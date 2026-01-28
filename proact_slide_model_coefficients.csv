@@ -1,0 +1,7 @@
+Variable,Beta,95% CI
+Study_Arm_Placebo,-0.178,"[-0.249, -0.094]"
+Age,0.405,"[0.363, 0.442]"
+Diagnostic_Delay,-0.253,"[-0.296, -0.212]"
+Vital_capacity,-0.1,"[-0.139, -0.077]"
+Sex_Male,0.281,"[0.186, 0.389]"
+Sex_onset,-0.255,"[-0.329, -0.164]"

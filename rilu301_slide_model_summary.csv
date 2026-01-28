@@ -1,0 +1,12 @@
+Metric,Value
+Selected variables,"Study_Arm_Placebo, Age, Vital_capacity, Onset_Limb"
+Spline df,1
+AIC (apparent),3552.898
+C-index (apparent),0.724
+C-index (optimism-corrected),0.725
+C-index 95% CI,"[0.699, 0.752]"
+Calibration slope (apparent),1.058
+Calibration slope (optimism-corrected),1.064
+Slope 95% CI,"[0.744, 1.313]"
+CITL at 12 months (optimism-corrected),-0.167
+CITL 95% CI,"[-0.291, -0.060]"
